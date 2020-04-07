@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
         TextView textDisplay = (TextView) findViewById(R.id.textViewDisplay);
         String nameToDisplay = editName.getText().toString();
         textDisplay.setText("Hello " + nameToDisplay);
-        Log.d(TAG,nameToDisplay +", this is logging to your system!");
+        Log.d(TAG,nameToDisplay +", this is logging to the system!");
     }
 }
